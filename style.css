@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+html {
+    background-color: #E3E2DF;
+    scroll-behavior: smooth;
+    font-family: Merriweather, sans-serif;
+}
+
+header, main {
+    display: flex;
+    justify-content: center;
+}
+
+header .title {
+    color: #5d001e;
+    font-size: 3rem;
+}
+
+.table-content {
+    margin: 25px 0;
+    font-size: 1rem;
+    border-collapse: collapse;
+    min-width: 400px;
+}
+
+.table-content thead tr {
+    background-color: #EE4C7C;
+    color: #ffffff;
+    text-align: center;
+}
+
+.table-content th,
+.table-content td {
+    padding: 12px 15px;
+}
+
+.table-content tbody tr {
+    border-bottom: 1px solid #E3AFBC;
+}
+
+.table-content tbody tr:nth-of-type(even) {
+    background-color: #EE4C7C;
+}
+
+.table-content tbody tr:last-of-type {
+    border-bottom: 2px solid #EE4C7C;
+}
